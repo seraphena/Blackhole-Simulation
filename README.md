@@ -2,7 +2,7 @@
 
 A real-time black hole simulator written in C++ and OpenGL for Windows. Every pixel is ray-traced on the GPU in a GLSL fragment shader, so light bends around the black hole as it would in Schwarzschild spacetime.
 
-![Screenshot]
+![Screenshot](image.png)
 
 ## Features
 - **Gravitational lensing:** light paths are integrated with RK4 using the Schwarzschild geodesic equation `u'' = -u + 1.5u²` (units where the Schwarzschild radius rs = 1)
